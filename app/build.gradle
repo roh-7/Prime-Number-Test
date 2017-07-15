@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+final ANKO_VERSION = '0.8.3'
 
 
 android {
@@ -41,7 +42,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+    compile "org.jetbrains.anko:anko-sdk15:${ANKO_VERSION}"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
 }
 repositories {
     mavenCentral()
