@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity()
 {
 	val ques = Question()
 	var score: Long = 0
-	val GITHUB_URL: String = "https://roh-7.github.io"
+	val GITHUB_URL: String = "https://github.com/roh-7"
 	
 	override fun onCreate(savedInstanceState: Bundle?)
 	{
