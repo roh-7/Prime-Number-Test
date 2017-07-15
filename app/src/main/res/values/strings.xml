@@ -1,5 +1,5 @@
 <resources >
-    <string name = "app_name" >My App</string >
+    <string name = "app_name" >Prime Number Test</string >
     <string name = "clicked" >I was clicked </string >
     <string name = "times" > times.</string >
     <string name = "once" >once.</string >
